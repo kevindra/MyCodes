@@ -6,10 +6,10 @@
        40
       / \
     10  30
-   /   / \
-  5   15 28
- /        \
-1         20
+   /     \
+  5      28
+ /      / \
+1     15  20
 */
 #include <iostream>
 #include <algorithm>
