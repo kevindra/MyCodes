@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Trees\SpecialBinaryTreeFromInorder.cpp">
+    <ClCompile Include="Trees\BinaryToBST.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
