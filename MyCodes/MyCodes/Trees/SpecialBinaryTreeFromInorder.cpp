@@ -3,14 +3,13 @@
 * Given Inorder Traversal of a Special Binary Tree in which key of every node is greater than keys in left and right children, construct the Binary Tree and return root.
 *	For Example: 1,5,10,40,30,15,28,20
 *
-		40
-		/ \
-	10	 30
-	/\	 / \
- 1	5 15	28
-					 \
-					 20
-*
+       40
+      / \
+    10  30
+   /   / \
+  5   15 28
+ /        \
+1         20
 */
 #include <iostream>
 #include <algorithm>
