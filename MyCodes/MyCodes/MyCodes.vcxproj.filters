@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Trees\InorderSuccessor.cpp">
+    <ClCompile Include="Trees\MergeTwoBST.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
