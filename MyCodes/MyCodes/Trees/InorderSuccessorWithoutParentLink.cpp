@@ -60,7 +60,7 @@ node *inorderSuccessor(node *root, node *n)
 	// if there is no right subtree of n, 
 	// then return the ancestor of n whose left subtree contains n.
 
-	node *succ = root;
+	node *succ = NULL;
 	while(root)
 	{
 		if(n->val < root->val)
