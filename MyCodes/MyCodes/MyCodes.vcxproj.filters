@@ -15,7 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Trees\MergeTwoBST.cpp">
+    <None Include="input.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Trees\VerticalSums.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
