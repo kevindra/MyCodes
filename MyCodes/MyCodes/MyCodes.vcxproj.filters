@@ -15,12 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="input.txt">
+    <None Include="Arrays\UniqueRowsInBooleanMatrix.in">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Trees\VerticalSums.cpp">
+    <ClCompile Include="Arrays\UniqueRowsInBooleanMatrix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
