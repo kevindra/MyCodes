@@ -15,12 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Arrays\UniqueRowsInBooleanMatrix.in">
-      <Filter>Resource Files</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Arrays\UniqueRowsInBooleanMatrix.cpp">
+    <ClCompile Include="RowWithMax1s.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
