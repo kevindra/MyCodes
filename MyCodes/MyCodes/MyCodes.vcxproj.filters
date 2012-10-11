@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="RowWithMax1s.cpp">
+    <ClCompile Include="MaxCircularSubArraySum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
