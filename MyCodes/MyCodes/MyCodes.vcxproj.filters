@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MaxCircularSubArraySum.cpp">
+    <ClCompile Include="Dynamic Programming\CoinProblem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
