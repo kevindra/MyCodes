@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Dynamic Programming\CoinProblem.cpp">
+    <ClCompile Include="Dynamic Programming\MaxLengthChainOfPairs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
