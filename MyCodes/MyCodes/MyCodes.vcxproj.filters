@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Dynamic Programming\MaxLengthChainOfPairs.cpp">
+    <ClCompile Include="Arrays\maxSubarrayProduct.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
