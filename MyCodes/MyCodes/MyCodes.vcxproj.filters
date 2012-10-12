@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Arrays\maxSubarrayProduct.cpp">
+    <ClCompile Include="Trees\ZigZagTraversal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
