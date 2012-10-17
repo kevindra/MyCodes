@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Trees\CeilofANumberInBST.cpp">
+    <ClCompile Include="Numbers\isPrime.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
