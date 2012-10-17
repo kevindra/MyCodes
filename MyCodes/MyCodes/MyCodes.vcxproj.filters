@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Numbers\isPrime.cpp">
+    <ClCompile Include="Numbers\GCD.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
