@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Strings\LexicographicOrderPermutations.cpp">
+    <ClCompile Include="Trees\CeilofANumberInBST.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
