@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Numbers\Bases.cpp">
+    <ClCompile Include="Greedy\ActivitySelection.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
