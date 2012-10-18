@@ -1,5 +1,5 @@
 /**
-	Intersection of two sorted linked lists
+	union of two sorted linked lists
 */
 #include <iostream>
 
@@ -36,33 +36,7 @@ void print(node *root)
 	print(root->next);
 }
 
-node *merge(node *root1, node *root2)
-{
-	if(root1 == NULL)
-	{
-		return root2;
-	}
-
-	if(root2 == NULL)
-	{
-		return root1;
-	}
-
-	node *result =  NULL;
-	if(root1->val < root2->val)
-	{
-		result = root1;
-		result->next = merge(root1->next, root2);
-	}
-	else
-	{
-		result = root2;
-		result->next = merge(root1, root2->next);
-	}
-	return result;
-}
-
-node *intersectionLL(node *root1, node *root2, node *lastChosen)
+node *unionLL(node *root1, node *root2, node *lastChosen)
 {
 	// if both the roots are null return NULL
 	if(root1 == NULL && root2 == NULL) return NULL;
@@ -77,7 +51,7 @@ node *intersectionLL(node *root1, node *root2, node *lastChosen)
 		if(lastChosen && root2->val == lastChosen->val)
 		{
 			// if same skip root2, just increment it without choosing root2 node
-			return intersectionLL(root1, root2->next, lastChosen);
+			return unionLL(root1, root2->next, lastChosen);
 		}
 		
 		// if not same 
@@ -85,7 +59,7 @@ node *intersectionLL(node *root1, node *root2, node *lastChosen)
 		node *result = root2;
 		
 		// fill the next of result recursively
-		result->next	= intersectionLL(root1, root2->next, root2);
+		result->next	= unionLL(root1, root2->next, root2);
 
 		// return the result
 		return result;
@@ -99,14 +73,14 @@ node *intersectionLL(node *root1, node *root2, node *lastChosen)
 		if(lastChosen && root1->val == lastChosen->val)
 		{
 			// we skip the node and increment root1
-			return intersectionLL(root1->next, root2, lastChosen);
+			return unionLL(root1->next, root2, lastChosen);
 		}
 
 		// otherwise we store it in the result and return it
 		node *result = root1;
 
 		// fill the next of result recursively
-		result->next = intersectionLL(root1->next, root2, root1);
+		result->next = unionLL(root1->next, root2, root1);
 
 		// return the result
 		return result;
@@ -117,14 +91,14 @@ node *intersectionLL(node *root1, node *root2, node *lastChosen)
 	if(lastChosen && root1->val == lastChosen->val)
 	{
 		// if they are same just skip root1 current value
-		return intersectionLL(root1->next, root2, lastChosen);
+		return unionLL(root1->next, root2, lastChosen);
 	}
 
 	// if last chosen and current root2 value are same
 	if(lastChosen && root2->val == lastChosen->val)
 	{
 		// skip root2 current value, don't store it in the result
-		return intersectionLL(root1, root2->next, lastChosen);
+		return unionLL(root1, root2->next, lastChosen);
 	}
 
 	// In all other cases, we store the value in result 
@@ -133,12 +107,12 @@ node *intersectionLL(node *root1, node *root2, node *lastChosen)
 	if(root1->val < root2->val)
 	{
 		result = root1;
-		result->next = intersectionLL(root1->next, root2, root1);
+		result->next = unionLL(root1->next, root2, root1);
 	}
 	else
 	{
 		result = root2;
-		result->next = intersectionLL(root1, root2->next, root2);
+		result->next = unionLL(root1, root2->next, root2);
 	}
 	return result;
 }
@@ -161,17 +135,11 @@ int main()
 	print(root2);
 	cout<<endl;
 
-	//node *mergedList = merge(root1, root2);
-
-	//cout<<"Merged List: ";
-	//print(mergedList);
-	//cout<<endl;
-
 	node *lastChosen = NULL;
-	node *intersection = intersectionLL(root1, root2, lastChosen);
+	node *unionll = unionLL(root1, root2, lastChosen);
 
-	cout<<"Intersection List: ";
-	print(intersection);
+	cout<<"union List: ";
+	print(unionll);
 	cout<<endl;
 
 	system("pause");
