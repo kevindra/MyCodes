@@ -69,6 +69,35 @@ node *rotateAntiClockwise(node *&root, int k)
 	return root;
 }
 
+node *rotateClockwise(node *&root, int k)
+{
+	if(root == NULL || k == 0) return root;
+
+	node *curr = root;
+	while(k-- > 1 && curr)
+	{
+		curr = curr->next;
+	}
+
+	// it means the linked list has exactly k nodes
+	if(curr == NULL) return root;
+
+	node *firstNode = root;
+	node *lastNode = curr;
+
+	while(lastNode->next)
+	{
+		if(lastNode->next->next == NULL) curr = firstNode;
+
+		firstNode = firstNode->next;
+		lastNode = lastNode->next; 
+	}
+	lastNode->next = root;
+	root = firstNode;
+	curr->next = NULL;
+
+	return root;
+}
 
 int main()
 {
@@ -84,6 +113,11 @@ int main()
 
 	cout<<"After Rotating linked list by k nodes anticlockwise: "<<endl;
 	node *head = rotateAntiClockwise(root, k);
+	print(head);
+	cout<<endl;
+
+	cout<<"After Rotating linked list by k nodes clockwise: "<<endl;
+	head = rotateClockwise(root, k);
 	print(head);
 	cout<<endl;
 
