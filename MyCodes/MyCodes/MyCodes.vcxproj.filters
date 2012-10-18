@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="RotateLinkedList.cpp">
+    <ClCompile Include="Linked Lists\IntersectionTwoSortedLinkedLists.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
