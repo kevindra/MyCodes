@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Trees\SortedLLToBalancedBST.cpp">
+    <ClCompile Include="Trees\InPlaceDLLtoBST.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
