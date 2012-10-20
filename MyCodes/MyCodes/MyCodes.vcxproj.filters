@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Strings\RemoveDuplicates.cpp">
+    <ClCompile Include="Strings\AreAnagrams.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
