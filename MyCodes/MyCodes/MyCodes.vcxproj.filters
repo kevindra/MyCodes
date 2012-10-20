@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Strings\HasAllUniqueChars.cpp">
+    <ClCompile Include="Strings\ReverseCStyle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
