@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Linked Lists\SumTwoLists.cpp">
+    <ClCompile Include="Linked Lists\DetectAndRemoveLoop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
