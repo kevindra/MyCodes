@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Graphs\IsRouteBetweenTwoNodes.cpp">
+    <ClCompile Include="Trees\MinHeightBinaryTreeFromSortedArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
