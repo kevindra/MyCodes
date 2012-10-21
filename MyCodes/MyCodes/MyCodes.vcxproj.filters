@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Matrix\Row0Col0Matrix.cpp">
+    <ClCompile Include="Stack\FindMinStack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
