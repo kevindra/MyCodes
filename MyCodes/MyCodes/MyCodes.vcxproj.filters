@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Trees\BinaryTreeToLevelLinkedLists.cpp">
+    <ClCompile Include="Trees\LowestCommonAncestorInBinaryTree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
