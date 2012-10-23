@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Matrix\NoOfPathsInAMatrix.cpp">
+    <ClCompile Include="Arrays\PrintAllSubsetsOfSet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
