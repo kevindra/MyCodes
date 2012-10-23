@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Arrays\MaximizeStockProfit.cpp">
+    <ClCompile Include="Dynamic Programming\GoldCoinProblem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
