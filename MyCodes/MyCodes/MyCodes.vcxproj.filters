@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Strings\ReverseAllWords.cpp">
+    <ClCompile Include="Bits Manipulation\BitsRequiredToConvertAtoB.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
