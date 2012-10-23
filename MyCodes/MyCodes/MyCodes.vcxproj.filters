@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Arrays\PrintAllSubsetsOfSet.cpp">
+    <ClCompile Include="Strings\CombinationsOfParantheses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
