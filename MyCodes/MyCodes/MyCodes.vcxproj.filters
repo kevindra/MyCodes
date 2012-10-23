@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Trees\LowestCommonAncestorInBinaryTree.cpp">
+    <ClCompile Include="Arrays\MaximizeStockProfit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
