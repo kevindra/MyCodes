@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Bits Manipulation\BitsRequiredToConvertAtoB.cpp" />
+    <ClCompile Include="Matrix\NoOfPathsInAMatrix.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1DA7E110-E473-47BC-AA5C-9946216A2BBB}</ProjectGuid>

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Bits Manipulation\BitsRequiredToConvertAtoB.cpp">
+    <ClCompile Include="Matrix\NoOfPathsInAMatrix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
