@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Arrays\SearchInRotatedSortedArray.cpp">
+    <ClCompile Include="Arrays\SearchInRowColSortedMatrix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
