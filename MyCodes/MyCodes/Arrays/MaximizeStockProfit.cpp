@@ -1,6 +1,7 @@
 /**
 You have an array for which the ith element is the price of a given stock on day "i".
-If you are only allowed to buy one share of the stock and sell one share of the stock, make an algorithm to find the best times to buy and sell.
+If you are only allowed to buy one share of the stock and sell one share of the stock, 
+make an algorithm to find the best times to buy and sell.
 
 
 Read more: http://www.businessinsider.com/8-mind-bending-interview-questions-that-google-asks-its-engineers-2012-7?op=1#ixzz2A7vVBfL0
